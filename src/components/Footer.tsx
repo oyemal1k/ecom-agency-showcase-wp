@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Instagram, Facebook, Twitter, Linkedin } from 'lucide-react';
 
@@ -57,13 +56,13 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-5">Services</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/portfolio?category=wordpress" className="text-gray-400 hover:text-white transition-colors">WordPress Development</Link>
+                <Link to="/portfolio?category=ecommerce" className="text-gray-400 hover:text-white transition-colors">E-commerce Development</Link>
               </li>
               <li>
                 <Link to="/portfolio?category=ppc" className="text-gray-400 hover:text-white transition-colors">PPC Management</Link>
               </li>
               <li>
-                <Link to="/portfolio?category=seo" className="text-gray-400 hover:text-white transition-colors">WooCommerce SEO</Link>
+                <Link to="/portfolio?category=seo" className="text-gray-400 hover:text-white transition-colors">E-commerce SEO</Link>
               </li>
               <li>
                 <Link to="/portfolio?category=content" className="text-gray-400 hover:text-white transition-colors">Content Creation</Link>
@@ -95,7 +94,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 mb-4 md:mb-0">&copy; {currentYear} WPCommerce Agency. All rights reserved.</p>
+            <p className="text-gray-400 mb-4 md:mb-0">&copy; {currentYear} E-Commerce Agency. All rights reserved.</p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>

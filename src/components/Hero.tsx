@@ -1,3 +1,4 @@
+
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -33,7 +34,7 @@ const Hero = () => {
               <img src="https://randomuser.me/api/portraits/men/67.jpg" className="w-10 h-10 rounded-full border-2 border-white" alt="Client" />
             </div>
             <p className="text-sm text-agency-gray">
-              <span className="font-semibold">Trusted by 50+</span> WordPress store owners
+              <span className="font-semibold">Trusted by 50+</span> E-commerce store owners
             </p>
           </div>
         </div>

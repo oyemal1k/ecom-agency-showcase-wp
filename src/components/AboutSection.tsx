@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const stats = [
   { label: "Years of Experience", value: "8+" },
   { label: "Successful Projects", value: "200+" },
-  { label: "WordPress Stores", value: "150+" },
+  { label: "E-commerce Stores", value: "150+" },
   { label: "Expert Team Members", value: "15" }
 ];
 
@@ -16,18 +16,18 @@ const AboutSection = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
-            <h2 className="section-title">About Our WordPress E-commerce Agency</h2>
+            <h2 className="section-title">About Our E-commerce Agency</h2>
             <p className="text-agency-gray mb-6">
-              We're a specialized agency focused exclusively on helping WordPress-based e-commerce businesses grow and thrive in the competitive online landscape.
+              We're a specialized agency focused exclusively on helping e-commerce businesses grow and thrive in the competitive online landscape.
             </p>
             <p className="text-agency-gray mb-6">
-              Our team of experts combines technical WordPress knowledge with deep marketing expertise to create solutions that don't just look good, but actually drive sales and revenue.
+              Our team of experts combines technical e-commerce knowledge with deep marketing expertise to create solutions that don't just look good, but actually drive sales and revenue.
             </p>
             
             <div className="space-y-3 mb-8">
               <div className="flex items-start">
                 <CheckCircle className="w-5 h-5 text-agency-purple mr-3 mt-1 shrink-0" />
-                <p className="text-agency-gray">WordPress & WooCommerce specialists with technical expertise</p>
+                <p className="text-agency-gray">E-commerce specialists with technical expertise</p>
               </div>
               <div className="flex items-start">
                 <CheckCircle className="w-5 h-5 text-agency-purple mr-3 mt-1 shrink-0" />

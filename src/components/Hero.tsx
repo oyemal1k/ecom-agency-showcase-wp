@@ -1,4 +1,3 @@
-
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -9,10 +8,10 @@ const Hero = () => {
       <div className="container-custom">
         <div className="max-w-3xl mx-auto md:mx-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-agency-black leading-tight mb-6 animate-fade-in">
-            Transform Your <span className="text-agency-purple">WordPress</span> Store Into a Revenue Machine
+            Transform Your <span className="text-agency-purple">E-commerce</span> Store Into a Revenue Machine
           </h1>
           <p className="text-lg text-agency-gray mb-8 md:pr-10 animate-fade-in delay-1">
-            We help e-commerce businesses like yours achieve extraordinary results through specialized WordPress services, data-driven strategies, and proven systems that deliver measurable ROI.
+            We help e-commerce businesses like yours achieve extraordinary results through specialized e-commerce services, data-driven strategies, and proven systems that deliver measurable ROI.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-10 animate-fade-in delay-2">
             <Button asChild className="bg-agency-purple hover:bg-agency-darkPurple text-white font-medium py-6 px-8 rounded-md transition-all duration-300">

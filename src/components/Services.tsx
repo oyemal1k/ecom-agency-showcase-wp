@@ -3,8 +3,8 @@ import { CheckCircle, ShoppingCart, Megaphone, BarChart2, Search, PenTool } from
 
 const services = [
   {
-    title: "WordPress E-commerce Development",
-    description: "Custom WooCommerce solutions, theme development, and plugin integration tailored to your business needs.",
+    title: "E-commerce Development",
+    description: "Custom e-commerce solutions, platform development, and integration tailored to your business needs.",
     icon: ShoppingCart,
     color: "bg-purple-100",
     iconColor: "text-agency-purple"
@@ -51,8 +51,8 @@ const Services = () => {
     <section className="section-padding bg-white" id="services">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="section-title">Our WordPress E-commerce Services</h2>
-          <p className="section-subtitle mx-auto">Comprehensive solutions to help your WordPress store outperform the competition</p>
+          <h2 className="section-title">Our E-commerce Services</h2>
+          <p className="section-subtitle mx-auto">Comprehensive solutions to help your online store outperform the competition</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

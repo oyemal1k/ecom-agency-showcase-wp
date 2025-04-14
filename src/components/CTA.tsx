@@ -1,4 +1,3 @@
-
 import { ArrowRight, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -9,7 +8,7 @@ const CTA = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your WordPress Store?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your E-commerce Store?</h2>
             <p className="text-white/80 text-lg mb-8 max-w-lg">
               Let's discuss how our specialized e-commerce services can help your business achieve its growth goals. Schedule a no-obligation strategy call today.
             </p>

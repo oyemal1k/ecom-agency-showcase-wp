@@ -11,10 +11,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
           <div>
             <Link to="/" className="flex items-center mb-5">
-              <span className="text-white font-poppins font-bold text-2xl">WP<span className="text-agency-purple">Commerce</span></span>
+              <span className="text-white font-poppins font-bold text-2xl">EC<span className="text-agency-purple">Commerce</span></span>
             </Link>
             <p className="text-gray-400 mb-6">
-              Specialized WordPress e-commerce services that deliver measurable results for online stores.
+              Specialized e-commerce services that deliver measurable results for online stores.
             </p>
             <div className="flex space-x-3">
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-agency-purple p-2 rounded-full transition-colors">
